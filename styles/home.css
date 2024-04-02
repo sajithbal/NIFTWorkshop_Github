@@ -105,6 +105,7 @@ footer {
   
   .footer {
     width: 80%;
+    position:fixed;
     margin: auto;
     bottom: 0;
   }
