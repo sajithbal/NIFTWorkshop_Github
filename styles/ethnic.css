@@ -1,0 +1,29 @@
+/* Image Grid Styles */
+.image-grid {
+    display: grid;
+    padding-top: 20px;
+    grid-template-columns: 200px 200px 200px; 
+    grid-template-rows: repeat(2,1fr);
+    /* Adjust the minimum and maximum width of each grid cell */
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: center;
+}
+  
+  .image {
+    overflow: hidden; /* Prevent images from overflowing */
+    width: 100%; /* Ensure images fill their container horizontally */
+    height: 100%; /* Ensure images fill their container vertically */
+  }
+  
+  .image img {
+    width: 100%; /* Make images fill their container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Limit image width to container width */
+    max-height: 100%; /* Limit image height to container height */
+  }
+  
+
+.ethnic_header{
+    align-content: center;
+}

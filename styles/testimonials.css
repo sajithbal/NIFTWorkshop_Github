@@ -1,0 +1,26 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.testimonial {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 350px;
+}
+
+.testimonial-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 200px;
+    height: 150px;
+    margin-bottom: 10px;
+}
