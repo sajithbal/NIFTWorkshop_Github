@@ -99,14 +99,12 @@ header{
   
 
 /* Footer Styles */
-footer {
+  
+  .footer {
     background-color: #ff00ff;
     color: #fff;
     padding: 20px 0;
     text-align: center;
-  }
-  
-  .footer {
     width: 80%;
     position:fixed;
     margin: auto;
