@@ -106,7 +106,7 @@ header{
     padding: 20px 0;
     text-align: center;
     width: 100%;
-    position:fixed;
+    position:sticky;
     margin: auto;
     bottom: 0;
   }
